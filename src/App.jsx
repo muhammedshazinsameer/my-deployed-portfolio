@@ -6,6 +6,7 @@ import Projects from './components/Projects'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Hobbies from './components/Hobbies'
+import Interests from './components/interest'
 
 function App() {
   const [activeSection, setActiveSection] = useState('projects')
@@ -20,6 +21,8 @@ function App() {
         return <Contact />
       case 'hobbies':
         return <Hobbies />
+      case 'interests':
+        return <Interests />
       default:
         return <Projects />
     }
