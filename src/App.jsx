@@ -5,6 +5,7 @@ import Navigation from './components/Navigation'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
+import Hobbies from './components/Hobbies'
 
 function App() {
   const [activeSection, setActiveSection] = useState('projects')
@@ -17,6 +18,8 @@ function App() {
         return <Skills />
       case 'contact':
         return <Contact />
+      case 'hobbies':
+        return <Hobbies />
       default:
         return <Projects />
     }

@@ -4,7 +4,8 @@ const Navigation = ({ activeSection, setActiveSection }) => {
   const navItems = [
     { id: 'projects', label: 'Projects' },
     { id: 'skills', label: 'Skills' },
-    { id: 'contact', label: 'Contact' }
+    { id: 'contact', label: 'Contact' },
+    { id: 'hobbies', label: 'Hobbies' }  
   ]
 
   return (
